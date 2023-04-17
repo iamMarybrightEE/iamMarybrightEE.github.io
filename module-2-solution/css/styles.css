@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+}
+.title{
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem  ;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+.card{
+    position: relative;
+    background-color: pink;
+    padding: 1rem;
+    border: 1px solid black;    
+}
+.section-title{
+    font-size: 1.25em;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:.5rem 1rem;
+    background-color:khaki;
+    border: 1px solid black;
+}
+.ping{
+    background-color: chartreuse ;
+}
+.pong{
+    background-color: darkturquoise;
+}
+.desc{
+    margin-top: 3rem;
+}
+@media  (min-width:768px) and (max-width: 991px) {
+    .section{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 40%;
+    }
+    .card:nth-child(3){
+        width: 86%;
+    }
+}
+@media screen and (max-width:767px) {
+    .section{
+        flex-direction: column;
+    }
+}
