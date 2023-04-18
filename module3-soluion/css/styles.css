@@ -1,1 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+.title{
+    font-size: 1.75em;
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem  ;
+}
+
+.card{
+    background-color: pink;
+    padding: 1rem;
+    border: 1px solid black;    
+}
+.section-title{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding:.5rem 1rem;
+ }
+
 
