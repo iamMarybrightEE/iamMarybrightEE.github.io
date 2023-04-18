@@ -1,6 +1,9 @@
 body{
     font-family: sans-serif;
 }
+.navbar{
+    background-color: cornsilk;
+}
 .title{
     font-size: 1.75em;
     text-align: center;
@@ -18,5 +21,7 @@ body{
     font-weight: bold;
     padding:.5rem 1rem;
  }
+
+
 
 
