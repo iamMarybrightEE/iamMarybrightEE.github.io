@@ -10,6 +10,9 @@ body{
     font-weight: bold;
     padding: 2rem  ;
 }
+.section{
+    padding:2rem;
+}
 
 .card{
     background-color: pink;
