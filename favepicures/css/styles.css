@@ -600,7 +600,7 @@ a .gallery-btn:hover{
     padding: 1rem;
     margin: 1rem;
     max-width: 20rem;
-    background-image: url(/images/prewedding/fgh1.jpg);
+    background-image: url(../images/prewedding/fgh1.jpg);
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
