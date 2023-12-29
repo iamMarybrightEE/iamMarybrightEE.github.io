@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fave Pictures :: About</title>
+    <link rel="shortcut icon" href="./images/fave pictures black.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        .bg-img{
+            height: 70vh;
+        }
+        .site-header{
+            width: 100%;
+        }
+        .about-title{
+            color: var(--wht);
+            text-align: center;
+            font-size: 3rem;
+            display: block;
+            margin: 0 auto;
+            position: absolute;
+            top: 35vh;
+            width: 100%;
+            z-index: 9999;
+        }
+        .about-image{
+            width: 180px;
+            height: 260px;
+            border-radius: 5px;
+            
+        }
+        .image-overlay{
+            position: absolute;
+            top: 0;left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0008;
+        }
+        .about-paras{
+            /* text-align: center; */
+            font-size: 1.3rem;
+            width: 30rem;
+            color: var(--txt);
+            padding: 2rem 0;
+            border-bottom: 1px solid #0004;
+            font-style: italic;
+        }
+        .about-section{
+            margin: 2rem auto;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .about-details{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .about-name{
+            color: black;
+            font-family: 'Rubik Moonrocks', cursive !important;
+        }
+        .about-details a .gallery-cta,.review-section a .gallery-cta{
+            background-color: var(--pri) !important;
+            margin-top: 1rem;
+            box-shadow: var(--shad);
+        }
+        
+        .about-details a .gallery-cta:hover, .review-section a .gallery-cta:hover{
+            color:var(--txt) !important;
+            margin-top: 1rem;
+        }
+        .team-title{
+            font-size: 2rem;
+        }
+        .about-para:nth-of-type(1){
+            margin-bottom: 2rem;
+        }
+        .ceo-image{
+            width: 320px;
+            height: 400px;
+        }
+        .team-section{
+            display: flex;align-items: center;justify-content: center;flex-direction: column;
+            text-align: center;padding: 0 6rem 2rem ; gap: 1rem;
+        }
+        .team-wrap{
+            display: flex;justify-content: center;
+            text-align: center;padding:0 8rem 2 ; gap: 1rem;
+            flex-wrap: wrap; border-bottom: 1px solid #0004;width: 70%;
+        }
+        .team-details{
+            display: flex;align-items: center;justify-content: center;
+            text-align: normal;padding: 0 6rem 2rem ; gap: 1rem;flex-direction: column;
+             flex-wrap: wrap;
+
+        }
+        .ceo-name{
+            font-size: 1.5rem;
+        }
+        .ceo-role{color: var(--txt); margin-top: -.5rem;}
+        .about-line{margin-top: -1rem; width: 5rem;}
+        .bio-para{color: var(--txt);  font-size: 1.1rem; margin-bottom: -1rem;padding: 0;
+        width: 30rem;}
+    </style>
+</head>
+<body>
+    <div class="bg-img">
+        <img src="./images/Kiddies/babi1.jpg" alt="" class="myimg">
+        <div class="image-overlay"></div>
+        <header class="site-header">
+            <div class="brand-details">
+                <div class="brand-head">
+                    <a href="./index.html"><img src="./images/fave pictures.png" alt="" class="brand-name"></a>
+                    <h4 class="brand-tag">...premium touch</h4>
+                </div>
+            </div>
+            <nav class="site-nav">
+                <ul class="nav-wrap">
+                    <li><a href="./index.html" >Home</a>
+                    <li><a href="./about.html" class="active">About us</a>
+                    <li><a href="./portfolio.html">Portfolio</a>
+                        <ol class="drop-down">
+                            <li><a href="./kiddies.html">Kiddies</a></li>
+                            <li><a href="./weddings.html">Weddings</a></li>
+                            <li><a href="./portraits.html">Portraits</a></li>
+                            <li><a href="./creatives.html">Creatives</a></li>
+                            <li><a href="./birthdays.html">Birthdays</a></li>
+                            <li><a href="./preweddings.html">Pre-wedding</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./"><i class="fa-solid fa-paper-plane"></i></a>
+                        <ol class="drop-down">
+                            <li><a href="./booking.html">Book a session</a></li>
+                            <li><a href="#newsletter">Sign up</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+            
+            
+            
+        </header>
+        <h3 class="about-title">About us</h3>
+    </div>
+    
+
+    <main class="site-body">
+        <section class="about-section">
+            <div class="about-details">
+                <div class="about-line"></div>
+                <div class="about-name">About us</div>
+                <div class="about-paras">
+                    <p class="about-para">Fave Pictures is a subsidiary of Midas Touch Business Emporium Limited. The company was registered in 2018 but commenced operations early 2019.</p>
+                    <p class="about-para">Fave Pictures is a state of-the-art professional photography studio for Children, teen, adult and families in Abuja,Nigeria. We are creatives and artists with a real heart for family. We want to inspire and influence generations of families on the importance of photo archiving and sharing their best moments together. We are a passionate company with vision to encourage people to realize the importance of family and the blessings that children bring even from the early stages of life. We are proud of what we have built and hope we can inspire families with lasting and unforgettable memories.</p>
+                    <p class="about-para"></p>
+                </div>
+                <a href="./gallery.html" class="header-link"><div class="gallery-cta header-cta">VIEW GALLERY</div></a>
+            </div>
+        </section>
+        <section class="category-section">
+                <div class="category-card">
+                    <h3 class="category-title">Vision</h3>
+                    <figure class="category-icon"><i class="fa fa-eye"></i></figure>
+                    <p class="category-text">To be the leading family-centric photo studio that capture and document life’s most unforgettable moment and inspire families to share their best moments together.</p>
+                </div>
+                <div class="category-card">
+                    <h3 class="category-title">Mission</h3>
+                    <figure class="category-icon"><i class="fa fa-rocket" ></i></figure>
+                    <p class="category-text">To create, capture and document unforgettable moments of your life with warmth & artistry and help preserve them as lifetime memories.</p>
+                </div>
+                <div class="category-card">
+                    <h3 class="category-title">Core values</h3>
+                    <figure class="category-icon"><i class="fa fa-pie-chart"></i></figure>
+                    <p class="category-text">
+                        <ul>
+                            <li>Godliness & Integrity</li>
+                            <li>Creativity & Excellence</li>
+                            <li>Diligence & Consistency</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="category-card">
+                    <h3 class="category-title">Management</h3>
+                    <figure class="category-icon"><i class="fa fa-american-sign-language-interpreting"></i></figure>
+                    <p class="category-text">Fave Pictures is managed by very experienced professionals trained locally and internationally in photography, editing, studio management and customer service.</p>
+                </div>
+                <div class="category-card">
+                    <h3 class="category-title">Staff</h3>
+                    <figure class="category-icon"><i class="fa fa-users"></i></figure>
+                    <p class="category-text">Fave Pictures is staffed by dedicated professionals who are experts in their various fields of endeavors – from photographers, to graphic artist to customer service officials etc. Our staff are well-dressed, courteous, presentable and friendly with outstanding people’s skills. They are proud of their jobs and treat our clients with respect and honor. This explains why at Fave Pictures, our clients become friends and family after their first visit. </p>
+                </div>
+        </section>
+        <section class="team-section">
+                <img src="./images/fave pictures black.png" alt="" class="brand-name">
+                <div class="team-title">Our Team</div>
+                <div class="team-wrap">
+                    <img src="./images/Portraits/favourbright1.jpg" alt="" class="ceo-image">
+                    <div class="team-details">
+                        <div class="ceo-name">FAVOUR ETARA</div>
+                        <div class="about-line"></div>
+                        <div class="ceo-role">CEO</div>
+                        <h3 class="ceo-bio">BIO</h3>
+                        <p class="bio-para">My name is Favour, a Nigerian based photographer that takes great pride in capturing the true spirit and personality of the people and subjects that I photograph. Born and raised Akwa Ibom state. I’ve always loved capturing the moments differently, I’m always the guy you hand your phone to take your pictures because i get the angles right lol.</p>
+                        <p class="bio-para">I understand that in order for me to capture beautiful images I must create a relaxed environment. I accomplish this by engaging in conversations, listening with my ears and camera and paying attention to the smallest details.</p>
+                    </div>
+                </div>
+                <!-- <div class="team-wrap">
+                    <img src="./images/Birthdays/bri1.jpg" alt="" class="ceo-image">
+                    <div class="team-details">
+                        <div class="ceo-name">MARYBRIGHT ETIM</div>
+                        <div class="about-line"></div>
+                        <div class="ceo-role">Managing director</div>
+                        <h3 class="ceo-bio">BIO</h3>
+                        <p class="bio-para">My name is Marybright, a Nigerian based retoucher that takes great pride in retouching lovely pictures while leaving your with a perfect skin tone. Born and raised Akwa Ibom state. I’ve always loved editing the captured moments differently, I’m always the lady you hand your phone to edit your pictures because i get the touch right lol.</p>
+                        <p class="bio-para">I understand that in order for me to capture beautiful images I must create a relaxed environment. I accomplish this by engaging in conversations, listening with my ears and camera and paying attention to the smallest details.</p>
+                    </div>
+                </div> -->
+                </div>
+        </section>
+        <section class="review-section">
+            <div class="gallery-title">Review</div>
+            <div class=" category-wrap review-wrap">
+                <div class="category-card review-card">
+                        <img src="./images/Birthdays/sophi2.jpg" alt="" class="review-image">
+                        <h3 class="review-name">Sophie</h3>
+                        <div class="review-stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-stroke"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p class="category-text">Chris came recommended to us and I'm glad we went with him!He is professional and decisive</p>
+                </div>
+                <div class="category-card review-card">
+                        <img src="./images/Wedding/FB_IMG_1673643347478.jpg" alt="" class="review-image">
+                        <h3 class="review-name">Arit and Bae</h3>
+                        <div class="review-stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-stroke"></i>
+                        </div>
+                        <p class="category-text">Honestly our wedding photos exceeded our expectations. ! I always recommend him to anyone I know who is getting married.</p>
+                </div>
+                <div class="category-card review-card">
+                        <img src="./images/pictures/dex3.jpg" alt="" class="review-image">
+                        <h3 class="review-name">Victoria</h3>
+                        <div class="review-stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p class="category-text">He gives me he creativity I want. Art is truly beautiful when you get super creative. His brand is the best</p>
+                </div>
+            </div>
+            <a href="./gallery.html" class="header-link"><div style="text-align: center; margin-bottom: 2rem;" class="gallery-cta header-cta">BOOK A SESSION</div></a>
+        </section>
+        <section class="faq-section" id="faq">
+            <div class="section-header">
+                <h4 class="faq-name">Frequently Asked Questions</h4>
+            </div>
+            <div class="faq-wrap">
+                <aside class="faq-card">
+                    <label for="faq-1" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">Do you travel?</h4>
+                        </div>
+                        <input type="checkbox"  id="faq-1" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In obcaecati explicabo aspernatur laboriosam assumenda ex dignissimos fugiat facilis similique deleniti!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-2" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">How much do you edit your photos?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-2" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sapiente inventore illo, distinctio nesciunt libero ipsa perferendis sunt dolorem suscipit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-3" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">How do we book you?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-3" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-4" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">How big is your team?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-4" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-5" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">What is your turn around time?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-5" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-7" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">Do you deliver raw photos?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-7" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-6" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">Do you offer outdoor services?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-6" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-8" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">Do you photoshop your clients?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-8" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-9" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">How do we receive our photos?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-9" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-10" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">Who edits the pictures for Fave Pictures?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-10" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-11" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">Do you offer trainings?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-11" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-12" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">Do you offer makeup services?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-12" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-13" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">How far in advance should we reach out to book you?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-13" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-14" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">We're awkward, how will you get good photos of us?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-14" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-15" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">What if we need to cancel or rescedule our wedding?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-15" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                <aside class="faq-card">
+                    <label for="faq-15" class="faq-toggle">
+                        <div class="faq-head">
+                            <h4 class="faq-title">What if we need to cancel or rescedule our wedding?</h4>
+                        </div>
+                        <input type="checkbox" id="faq-15" class="faq-input"/>
+                        <div class="faq-answer">
+                            <div class="faq-btn">+</div>
+                            <p class="faq-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt excepturi totam fugit, nihil recusandae iste commodi consequatur culpa odit!</p>
+                        </div>
+                    </label>
+                </aside>
+                
+                
+            </div>
+        </section>
+        <section class="newsletter-section" id="newsletter">
+            <div class="newsletter-header">
+                <h3 class="newsletter-title">Newsletter</h3>
+                <p class="newsletter-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, iure!</p>
+            </div>
+            <form  class="newsletter-form">
+                <input type="email" id="email" placeholder="Email address" required>
+                <button type="submit" class="submit-btn newsletter-btn">Subscribe</button>
+            </form>
+        </section>
+        <div class="popup-wrapper">
+        <div class="popup">
+                <div class="popup-close">X</div>
+                <a href="https://goo.gl/maps/VB3vVwNMWjaFFcB89">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.716044066878!2d7.447937214871893!3d9.089611493478868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ac7c6400001%3A0x632186d4f9d6318a!2sThe%20Capital%20Hub!5e0!3m2!1sen!2sng!4v1673742867129!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a> 
+        </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+            <div class="foot-linkwrap">
+            <ul class="foot-links">
+                <h3 class="foot-title">Quick Links</h3>
+                <li><a href="./index.html" >Home</a></li>
+                <li><a href="./about.html" class="active">About us</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+                <ul class="foot-links">
+                <h3 class="foot-title">Follow Us</h3>
+                <li><a target="_blank" href="https://www.facebook.com/iamFaveboy?mibextid=ZbWKwL"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/invites/contact/?i=164dvwzvy8pje&utm_content=5c00uyp"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a target="_blank" href="https://wa.me/message/Q3X5S64UEMYSO1"><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
+                <li><a target="_blank" href="https://twitter.com/Favebboy?t=Q-MVfQBc9rQ1HiEDMjwMCw&s=09"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a target="_blank" href="https://telegram.org/dl"><i class="fab fa-telegram"></i> Telegram</a></li>
+            </ul>
+            <ul class="foot-links">
+                <h3 class="foot-title">Reach Out to Us</h3>
+                <button class="maps"><i class="fa-sharp fa-solid fa-location-dot"></i> Locate us</button>
+
+                <li><a href="tel:+2349126735325"><i class="fa fa-phone"></i> Give us a Call</a></li>
+                <li><a href="mailto:fave31etara@gmail.com"><i class="fa fa-envelope"></i> Send us a Mail</a></li>
+                <li><a href="#newsletter"><i class="fa-solid fa-paper-plane"></i> Sign up</a></li>
+                <li><a href="#faq"><i class="fas fa-question"></i> FAQ</a></li>
+            </ul>
+            <ul class="foot-links">
+                <h3 class="foot-title">OPENING HOURS</h3>
+                <div class="work-day">MONDAY - THURSDAY</div>
+                <div class="work-time">09:00 AM - 08:00 PM</div>
+                <div class="work-day">FRIDAY - SUNDAY</div>
+                <div class="work-time">01:00 NOON - 08:00 PM</div>
+                <a href="./booking.html"><button class="submit-btn" style="width:7rem; text-align: left; margin-left: 0;">Book Now</button></a>
+            </ul>
+            </div>
+            <small class="footer-base"><span style="color: rgb(255, 153, 0);">&copy;</span>FavePictures. All rights reserved.</small>
+    </footer>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        let siteNav = document.querySelector('.site-nav');
+        let navIcon = document.querySelector('.nav-toggle');
+        navIcon.onclick = e => { siteNav.classList.toggle('nav-show'); }
+
+        const colors = ["#09dba080", "#f668", "#0979db80", "#32342080", "#6c3cf280"];
+
+        // Lazy Loading Images
+        // Function to set all src attribute to data-src
+        const convert2DataSrc = () => {
+            // get all images with lazyLoading class
+            const allImages = document.querySelectorAll("img.lazy-loading");
+            // Loop through them all
+            allImages.forEach((img) => {
+                // Get the current src value
+                let src = img.src;
+                // Create a data-src attribute on it and make its value the src
+                img.setAttribute("data-src", src);
+                // Set the current src to an empty string (so the image does not get forcefully rendered)
+                img.src = ""; 
+                // Generate a random bgColor
+                let randInt = Math.round(Math.random()*colors.length-1);
+                img.style.background = colors[randInt];
+            })
+        }
+        convert2DataSrc(); //Call the function to work.
+        
+        // Implement the Lazy Loading
+        const lazyLoading = (img) => {
+            const options = {rootMargin: '0px', root: null, threshold: 0};
+            const io = new IntersectionObserver((entries,observer)=>{
+                entries.forEach((entry)=> {
+                    if(entry.isIntersecting){
+                        let img = entry.target;
+                        let dataSrc = img.dataset.src;
+                        img.src = dataSrc;
+                        img.style.background = "transparent";
+                        img.classList.add("lazy-loader")
+                        observer.disconnect();
+                    }
+                })
+            }, options);
+            io.observe(img);
+        }
+        const allImages = document.querySelectorAll("img.lazy-loading");
+        allImages.forEach(lazyLoading);
+    </script>
+</body>
+</html>

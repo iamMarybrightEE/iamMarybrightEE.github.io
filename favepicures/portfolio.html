@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fave Pictures :: Portfolio</title>
+    <link rel="shortcut icon" href="./images/fave pictures black.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        .bg-img{
+            height: 70vh;
+        }
+        .header-others{
+            margin: 0 auto;
+            position: absolute;
+            top: 35vh;
+            width: 100%;
+            z-index: 9999;
+        }
+        .portfolio-section{
+            padding: 4rem 2rem 4rem;
+        }
+        .portfolio-header{
+            text-align: center;
+        }
+        .portfolio-subtitle{
+            color: var(--txt);
+            padding: 1rem 2rem 3rem;
+        }
+        .portfolio-wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0 4rem 1rem;
+        }
+        .image-card{            
+            position: relative;
+            width: 320px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 2rem;
+        }
+        .portfolio-image{
+            width: 350px;
+            height: 430px;
+            object-fit: cover;
+            box-shadow: var(--shad);
+        }
+        .portfolio-image:hover{
+            transform: scale(1.1);
+        }
+        .image-overlay{
+            background-color: #0008;
+            position: absolute;top: 0;left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;align-items: center;justify-content: center;flex-direction: column;gap: 0.5rem;
+        }
+        .portfolio-name{
+            font-size: 3rem;
+            color: var(--wht);
+        }
+        
+        .slide-section{
+        width: 100vw;
+        overflow: hidden;
+    
+        }
+        .slide-wrap{
+        display: flex;
+        width: 400vw;
+        }
+        .slide-image{
+        width: 100vw;
+        height: 200px;
+        display: flex;
+        object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-img">
+        <img src="./images/Creative Portriats/IMG_9958.jpg" alt="" class="myimg">
+        <header class="site-header">
+            <div class="brand-details">
+                <div class="brand-head">
+                    <a href="./index.html"><img src="./images/fave pictures.png" alt="" class="brand-name"></a>
+                    <h4 class="brand-tag">...premium touch</h4>
+                </div>
+            </div>
+            <nav class="site-nav">
+                <ul class="nav-wrap">
+                    <li><a href="./index.html" >Home</a>
+                    <li><a href="./about.html">About us</a>
+                    <li><a href="./portfolio.html" class="active">Portfolio</a>
+                        <ol class="drop-down">
+                            <li><a href="./kiddies.html">Kiddies</a></li>
+                            <li><a href="./weddings.html">Weddings</a></li>
+                            <li><a href="./portraits.html">Portraits</a></li>
+                            <li><a href="./creatives.html">Creatives</a></li>
+                            <li><a href="./birthdays.html">Birthdays</a></li>
+                            <li><a href="./preweddings.html">Pre-wedding</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="./services.html">Services</a> </li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./"><i class="fa-solid fa-paper-plane"></i></a>
+                        <ol class="drop-down">
+                            <li><a href="#booking">Book a session</a></li>
+                            <li><a href="#newsletter">Sign up</a></li>
+                            <li><a href="./faq.html">FAQ</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+        </header>
+            <div class="header-others">
+                <h3 class="gallery-title">Our Portfolio</h3>
+                
+                <div class="header-ctas">
+                    <a href="#portfolio" class="header-link"><div class="header-cta">VIEW MORE</div></a>
+                </div>
+            </div>
+    </div>
+    
+
+    <main class="site-body">
+        <section class="portfolio-section">
+            <div class="portfolio-header">
+                <p class="portfolio-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate culpa aliquam exercitationem commodi necessitatibus in.</p>
+            </div>
+            <div class="portfolio-wrapper" id="portfolio">
+                <aside class="portfolio-card">
+                    <div class="image-card">
+                        <img src="./images/Kiddies/FB_IMG_1673643427584.jpg" alt="" class="portfolio-image lazy-loader">
+                        <div class="image-overlay">
+                            <div class="portfolio-name">Kiddies</div>
+                            <a href="./kiddies.html" class="header-link"><div class="gallery-cta header-cta">VIEW KIDDIES</div></a>
+
+                        </div>
+                </aside>
+                <aside class="portfolio-card">
+                    <div class="image-card">
+                        <img src="./images/Wedding/dar.jpg" alt="" class="portfolio-image lazy-loader">
+                        <div class="image-overlay">
+                            <div class="portfolio-name">Weddings</div>
+                            <a href="./weddings.html" class="header-link"><div class="gallery-cta header-cta">VIEW WEDDINGS</div></a>
+                        </div>
+                </aside>
+                <aside class="portfolio-card">
+                    <div class="image-card">
+                        <img src="./images/Portraits/dex1-1.jpg" alt="" class="portfolio-image lazy-loader">
+                        <div class="image-overlay">
+                            <div class="portfolio-name">Portraits</div>
+                            <a href="./portraits.html" class="header-link"><div class="gallery-cta header-cta">VIEW PORTRAITS</div></a>
+                        </div>
+                </aside>
+                <aside class="portfolio-card">
+                    <div class="image-card">
+                        <img src="./images/Creative Portriats/mar.jpg" alt="" class="portfolio-image lazy-loader">
+                        <div class="image-overlay">
+                            <div class="portfolio-name">Creatives</div>
+                            <a href="./creatives.html" class="header-link"><div class="gallery-cta header-cta">VIEW CREATIVES</div></a>
+                        </div>
+                </aside>
+                <aside class="portfolio-card">
+                    <div class="image-card">
+                        <img src="./images/Birthdays/MK (7).jpg" alt="" class="portfolio-image lazy-loader">
+                        <div class="image-overlay">
+                            <div class="portfolio-name">Birthdays</div>
+                            <a href="./birthdays.html" class="header-link"><div class="gallery-cta header-cta">VIEW BIRTHDAYS</div></a>
+                        </div>
+                </aside>
+                <aside class="portfolio-card">
+                    <div class="image-card">
+                        <img src="./images/prewedding/oyoo (16).jpg" alt="" class="portfolio-image lazy-loader">
+                        <div class="image-overlay">
+                            <div class="portfolio-name">Preweddings</div>
+                            <a href="./preweddings.html" class="header-link"><div class="gallery-cta header-cta">VIEW PREWEDDINGS</div></a>
+                        </div>
+                </aside>
+            </div>
+        </section>
+        <section class="booking-section" id="booking">
+            <div class="booking-header">
+                <h3 class="booking-title">Online Booking</h3>
+                <p class="booking-subtitle">Book a session with us today</p>
+            </div>
+            <form class="booking-form">
+                <fieldset>
+                    <input type="text" id="fullname" placeholder="Full name" required>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone number" maxlength="11" required>
+                    <input type="email" id="email" placeholder="Email address">
+                    <select name="" id="packages">
+                        <option value="packages">Select Package</option>
+                        <option value="packages">Regular Shoots(1 outfit)</option>
+                        <option value="packages">Regular Shoots(2 outfits)</option>
+                        <option value="packages">Regular Shoots(3 outfits)</option>
+                        <option value="packages">Prewedding Sessions (1 outfits)</option>
+                        <option value="packages">Prewedding Sessions (2 outfits)</option>
+                        <option value="packages">Prewedding Sessions (3 outfits)</option>
+                        <option value="packages">Weddings (Bronze)</option>
+                        <option value="packages">Weddings (Silver)</option>
+                        <option value="packages">Weddings (Gold)</option>
+                    </select>
+                    <div >
+                        <label for="date">Date</label>
+                        <input id="date" name="date" type="date" value="2023-01-17" required="">
+                    </div>
+                    <div >
+                        <label for="time">Time</label>
+                        <input id="time" name="time" type="time" value="13:00" required="">
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Book a session</button>
+                </fieldset>
+            
+            </form>
+        </section>
+        <section class="newsletter-section" id="newsletter">
+            <div class="newsletter-header">
+                <h3 class="newsletter-title">Newsletter</h3>
+                <p class="newsletter-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, iure!</p>
+            </div>
+            <form  class="newsletter-form">
+                <input type="email" id="email" placeholder="Email address" required>
+                <button type="submit" class="submit-btn newsletter-btn">Subscribe</button>
+            </form>
+        </section>
+        <div class="popup-wrapper">
+        <div class="popup">
+                <div class="popup-close">X</div>
+                <a href="https://goo.gl/maps/VB3vVwNMWjaFFcB89">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.716044066878!2d7.447937214871893!3d9.089611493478868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ac7c6400001%3A0x632186d4f9d6318a!2sThe%20Capital%20Hub!5e0!3m2!1sen!2sng!4v1673742867129!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </a> 
+        </div>
+        </div>
+
+       
+    </main>
+    <footer class="site-footer">
+            <div class="foot-linkwrap">
+            <ul class="foot-links">
+                <h3 class="foot-title">Quick Links</h3>
+                <li><a href="./index.html" >Home</a></li>
+                <li><a href="./about.html" >About us</a></li>
+                <li><a href="./portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+                <ul class="foot-links">
+                <h3 class="foot-title">Follow Us</h3>
+                <li><a target="_blank" href="https://www.facebook.com/iamFaveboy?mibextid=ZbWKwL"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/invites/contact/?i=164dvwzvy8pje&utm_content=5c00uyp"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a target="_blank" href="https://wa.me/message/Q3X5S64UEMYSO1"><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
+                <li><a target="_blank" href="https://twitter.com/Favebboy?t=Q-MVfQBc9rQ1HiEDMjwMCw&s=09"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a target="_blank" href="https://telegram.org/dl"><i class="fab fa-telegram"></i> Telegram</a></li>
+            </ul>
+            <ul class="foot-links">
+                <h3 class="foot-title">Reach Out to Us</h3>                
+                <button class="maps"><i class="fa-sharp fa-solid fa-location-dot"></i> Locate us</button>
+
+                <li><a href="tel:+2349126735325"><i class="fa fa-phone"></i> Give us a Call</a></li>
+                <li><a href="mailto:fave31etara@gmail.com"><i class="fa fa-envelope"></i> Send us a Mail</a></li>
+                <li><a href="#newsletter"><i class="fa-solid fa-paper-plane"></i> Sign up</a></li>
+                <li><a href="#faq"><i class="fas fa-question"></i> FAQ</a></li>
+            </ul>
+            <ul class="foot-links">
+                <h3 class="foot-title">OPENING HOURS</h3>
+                <div class="work-day">MONDAY - THURSDAY</div>
+                <div class="work-time">09:00 AM - 08:00 PM</div>
+                <div class="work-day">FRIDAY - SUNDAY</div>
+                <div class="work-time">01:00 NOON - 08:00 PM</div>
+                <a href="#booking"><button class="submit-btn" style="width:7rem; text-align: left; margin-left: 0;">Book Now</button></a>
+            </ul>
+            </div>
+            <small class="footer-base"><span style="color: rgb(255, 153, 0);">&copy;</span>FavePictures. All rights reserved.</small>
+    </footer>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        let siteNav = document.querySelector('.site-nav');
+        let navIcon = document.querySelector('.nav-toggle');
+        navIcon.onclick = e => { siteNav.classList.toggle('nav-show'); }
+
+        const colors = ["#09dba080", "#f668", "#0979db80", "#32342080", "#6c3cf280"];
+
+        // Lazy Loading Images
+        // Function to set all src attribute to data-src
+        const convert2DataSrc = () => {
+            // get all images with lazyLoading class
+            const allImages = document.querySelectorAll("img.lazy-loading");
+            // Loop through them all
+            allImages.forEach((img) => {
+                // Get the current src value
+                let src = img.src;
+                // Create a data-src attribute on it and make its value the src
+                img.setAttribute("data-src", src);
+                // Set the current src to an empty string (so the image does not get forcefully rendered)
+                img.src = ""; 
+                // Generate a random bgColor
+                let randInt = Math.round(Math.random()*colors.length-1);
+                img.style.background = colors[randInt];
+            })
+        }
+        convert2DataSrc(); //Call the function to work.
+        
+        // Implement the Lazy Loading
+        const lazyLoading = (img) => {
+            const options = {rootMargin: '0px', root: null, threshold: 0};
+            const io = new IntersectionObserver((entries,observer)=>{
+                entries.forEach((entry)=> {
+                    if(entry.isIntersecting){
+                        let img = entry.target;
+                        let dataSrc = img.dataset.src;
+                        img.src = dataSrc;
+                        img.style.background = "transparent";
+                        img.classList.add("lazy-loader")
+                        observer.disconnect();
+                    }
+                })
+            }, options);
+            io.observe(img);
+        }
+        const allImages = document.querySelectorAll("img.lazy-loading");
+        allImages.forEach(lazyLoading);
+
+        // slider
+        const slideWrap = document.querySelector(".slide-wrap"), slideImages = document.querySelectorAll(".slide-image"), slideTotal = slideImages.length;
+        slideWrap.style.width = slideTotal+"00vw";
+        let slideIndex = 0;
+        setInterval(() => {
+            slideIndex = slideIndex % slideTotal;
+            // slideWrap.style.transform = "translateX(-"+slideIndex+"00vw)";
+            slideWrap.style.transform = `translateX(-${slideIndex}00vw)`;
+            slideIndex += 1;
+        }, 4000);
+    </script>
+</body>
+</html>
