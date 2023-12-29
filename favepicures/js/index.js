@@ -7,11 +7,11 @@ window.onscroll = function(){
     let scrollLength = this.pageYOffset;
     if(scrollLength > 0){
         header.classList.add("fixed"); 
-        image.src = "/images/fave pictures black.png";
+        image.src = "./images/fave pictures black.png";
     }
     else{
         header.classList.remove("fixed");
-        image.src = "/images/fave pictures.png"
+        image.src = "./images/fave pictures.png"
     }
 }
 const form = document.querySelector(".newsletter-form");
