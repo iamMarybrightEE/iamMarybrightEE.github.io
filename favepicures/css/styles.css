@@ -975,6 +975,27 @@ a .gallery-btn:hover{
         gap:1rem;
         padding: 0;
     }
+     fieldset{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .booking-form input{
+        width: 100%;
+     }
+     fieldset #packages {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     fieldset div{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     fieldset div input{
+        width: 100% !important;
+     }
      .insight-wrap{
         display: flex;
         flex-direction: column;
@@ -1020,6 +1041,7 @@ a .gallery-btn:hover{
     .footer-base{
         text-align: left;
     }
+    
  }
  @media screen and (max-width: 424px){
 
@@ -1154,6 +1176,10 @@ a .gallery-btn:hover{
     .newsletter-section, .portfolio-section, .booking-section{
         width: 100vw;
         overflow: hidden;
+    }
+     .booking-section{
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
  }
  @media screen and (max-width: 108px){
