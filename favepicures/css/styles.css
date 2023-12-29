@@ -442,7 +442,7 @@ aside.maps .location-name{
 
 /* booking section */
 .booking-section{
-    background-image: url(/images/Portraits/melanin1.jpg);
+    background-image: url(../images/Portraits/melanin1.jpg);
     background-size: cover;
     padding: 3rem auto 4rem;
     padding-bottom: 2rem;
@@ -746,13 +746,12 @@ a .gallery-btn:hover{
     font-size: 1.1rem;
 }
 .service-wrapper{
-    background-image: url(/images/prewedding/fgh1.jpg) !important;
+    background-image: url(../images/prewedding/fgh1.jpg) !important;
     flex-wrap: wrap;
 }
 .service-card{
     /* width: 22%; */
     background-color: #0008;
-    background-image: url("../images/prewedding/fgh1.jpg");
 }
 .service-name{
     font-size: 1.5rem;
