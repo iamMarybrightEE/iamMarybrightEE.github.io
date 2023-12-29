@@ -752,6 +752,7 @@ a .gallery-btn:hover{
 .service-card{
     /* width: 22%; */
     background-color: #0008;
+    background-image: url("../images/prewedding/fgh1.jpg");
 }
 .service-name{
     font-size: 1.5rem;
